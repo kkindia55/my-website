@@ -1,21 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    color: #333;
-    text-align: center;
-    padding: 50px;
-  }
-</style>
-
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Cricket Score</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my first web page made with HTML.</p>
-  <a href="https://example.com">Visit Example Site</a>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #1e88e5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.scorecard, .details {
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #1e88e5;
+}
+
+footer {
+  background-color: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+  <header>
+    <h1>🏏 Live Cricket Score</h1>
+  </header>
+
+  <main>
+    <section class="scorecard">
+      <h2>India vs Pakistan</h2>
+      <p><strong>India:</strong> 157/4 (18.2 overs)</p>
+      <p><strong>Pakistan:</strong> Yet to Bat</p>
+      <p><strong>Status:</strong> Live - 2nd Innings</p>
+    </section>
+
+    <section class="details">
+      <h3>Current Batting:</h3>
+      <ul>
+        <li>Rohit Sharma - 65 (42)</li>
+        <li>Suryakumar Yadav - 37 (21)</li>
+      </ul>
+
+      <h3>Last Wicket:</h3>
+      <p>Kohli c Rizwan b Shaheen Afridi - 28 (20)</p>
+
+      <h3>Bowling:<
